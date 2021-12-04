@@ -11,5 +11,8 @@ The dataset is available at the following public Google Drive link: https://driv
 
 The trained YOLOv5smodel weights are also available in this folder.
 
+# Camera Rig 
+Code designed for the touchscreen user interface on the RPi is included, along with Solidworks parts for the tripod assembly with swivel mount.
+
 # Data management scripts
 These python scripts were written by myself to assist with handling the data.  They can be customised, and may be of some use.
