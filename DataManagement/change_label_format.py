@@ -34,13 +34,13 @@ for f in os.listdir():
 
             cid = elem.find('name')
             if cid.text == 'RAD1':
-                descriptor += '0 '
-            elif cid.text == 'RAD2':
-                descriptor += '0 '
+                descriptor += '0 '      # <-- change these cid.text names to the source options
+            elif cid.text == 'RAD2':    # <-- change descriptors to class encoded numbering (starting from zero)
+                descriptor += '1 '
             elif cid.text == 'RAD3':
-                descriptor += '1 '
+                descriptor += '2 '
             elif cid.text == 'RAD4':
-                descriptor += '1 '
+                descriptor += '3 '
             
             xmin = int(elem.find('bndbox/xmin').text)
             xmax = int(elem.find('bndbox/xmax').text)
